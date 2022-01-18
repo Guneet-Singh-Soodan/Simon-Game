@@ -32,6 +32,7 @@ $(".btn").click(function(){
     audio.play();
     gamePattern=[];
     level=1;
+    i=0;
     $("h1").text("Game Over, Press Any Key to Restart");
     $(document).keypress(function() {
         nextSequence();
