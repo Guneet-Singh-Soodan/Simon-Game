@@ -31,6 +31,7 @@ $(".btn").click(function(){
     var audio=new Audio('sounds/wrong.mp3');
     audio.play();
     gamePattern=[];
+    level=1;
     $("h1").text("Game Over, Press Any Key to Restart");
     $(document).keypress(function() {
         nextSequence();
